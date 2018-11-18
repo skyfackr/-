@@ -1,7 +1,19 @@
-#pragma once
+
 #ifndef ___huaji__io_h
 #define ___huaji__io_h
-inline void pause();
-inline char press();
+
+namespace ioerr
+{
+	class inputerr:public exception
+	{
+	public:inputerr()
+		{
+			exception("notint");
+		}
+	};
+}
+ void pause();
+ char press();
+ int pressint();
 #endif // !___huaji__io_h
 

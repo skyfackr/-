@@ -1,31 +1,31 @@
-#include"std.h"
-#pragma once
+
 #ifndef _____huaji__music
 #define _____huaji__music
+#include"std.h"
 
-class mcimusic
+class musicsystem
 {
 	private:
 		MCI_OPEN_PARMS open;
 		string name;
-		inline void namegetu(string s);
-//		inline void playmusic();
-		inline void openfileu(string s);
+		 void namegetu(string s);
+//		 void playmusic();
+		 void openfileu(LPCWSTR s);
 		UINT wdd;
 		MCI_PLAY_PARMS play;
-		inline void idgetu();
-//		inline void getstatus();
+		 void idgetu();
+//		 void getstatus();
 		MCI_SEEK_PARMS SeekParms;
 		bool isplayed = false;
 	public:
-		inline void loadu(string s);
-		inline void onu();
-		inline void pauseu();
-		inline void stopu();
-		inline void skipstartu();
-		inline void skipu(int h,int m);
-		inline void skipstopu();
-		inline void statusu();
+		 void loadu(LPCWSTR s);
+		 void onu();
+		 void pauseu();
+		 void stopu();
+		 void skipstartu();
+		 void skipu(int h,int m);
+		 void skipstopu();
+		 void statusu();
 };
 
 #endif // !_____huaji__music

@@ -153,6 +153,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="music.h" />
     <ClInclude Include="std.h" />
+    <ClInclude Include="debugcontroller.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="io.cpp" />

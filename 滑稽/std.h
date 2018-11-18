@@ -1,3 +1,7 @@
+#ifndef ___huaji__std_h
+#define ___huaji__std_h
+
+
 #pragma once
 #include "targetver.h"
 #include <stdio.h>
@@ -8,5 +12,6 @@
 #include<mmsystem.h>
 #pragma comment(lib,"winmm.lib")
 using namespace std;
-#define sys(a) system("a")
+
 #include<cctype>
+#endif // !___huaji__std_h
