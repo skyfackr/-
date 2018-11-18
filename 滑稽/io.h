@@ -8,7 +8,7 @@ namespace ioerr
 	{
 	public:inputerr()
 		{
-			exception("notint");
+			exception("ioerr::inputerr");
 		}
 	};
 }

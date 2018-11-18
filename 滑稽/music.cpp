@@ -34,6 +34,7 @@
 	if (!isplayed)
 	{
 		isplayed = true;
+		play.dwFrom = 0;
 		mciSendCommand(wdd, MCI_PLAY, MCI_FROM, (DWORD)&play);
 		return;
 	}
@@ -48,6 +49,7 @@
  void musicsystem::stopu()
 {
 	mciSendCommand(wdd, MCI_STOP, MCI_FROM, (DWORD)&play);//MCI_STOP指定设备停止播放
+	isplayed = false;
 	return;
 }
  void musicsystem::skipstartu()

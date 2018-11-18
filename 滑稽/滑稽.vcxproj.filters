@@ -33,6 +33,9 @@
     <ClInclude Include="debugcontroller.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +48,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -154,8 +154,10 @@
     <ClInclude Include="music.h" />
     <ClInclude Include="std.h" />
     <ClInclude Include="debugcontroller.h" />
+    <ClInclude Include="control.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="control.cpp" />
     <ClCompile Include="io.cpp" />
     <ClCompile Include="music.cpp" />
     <ClCompile Include="stdafx.cpp">
